@@ -28,7 +28,7 @@ class M3U8ParserTest {
 
     private String readFile() {
         try {
-            InputStream input =  getClass().getResourceAsStream("Test.m3u8");
+            InputStream input =  getClass().getResourceAsStream("../Test.m3u8");
             String finalString = "";
             int character;
             while (( character = input.read()) != -1) {

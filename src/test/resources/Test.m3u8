@@ -1,4 +1,13 @@
 #EXTM3U url-tvg="Test"
-#EXTINF:-1 tvg-id="testId" tvg-name="testTvgName" tvg-country="testCountry" tvg-language="testLanguage" tvg-logo="https://testLogo.png" group-title="testGroupTitle",Test
+#EXTINF:-1 tvg-id="testId",Test
 https://test.com/file.mp4
-
+#EXTINF:-1 tvg-name="testId"
+https://test.com/file.mp4
+#EXTINF:-1 NAME="testId"
+https://test.com/file.mp4
+#EXTINF:-1 RESOLUTION="testId",Test
+https://test.com/file.mp4
+#EXTINF:-1 regexNotFound="testId", Test
+https://test.com/file.mp4
+#EXTINF:-1 group-title=testId
+https://test.com/file.mp4
