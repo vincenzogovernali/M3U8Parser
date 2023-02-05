@@ -4,20 +4,21 @@ import org.junit.jupiter.api.Test;
 
 import java.io.InputStream;
 
+import static org.assertj.core.api.Assertions.assertThat;
+
 class M3U8ParserTest {
 
     private M3U8Parser parser = new M3U8Parser();
 
     @Test
     void parseWithOneArg() {
-        this.parser.parse(readFile());
+        assertThat(this.parser.parse(readFile())).hasSize(6);
     }
 
     @Test
     void parseWithTwoArg() {
-        this.parser.parse(readFile(), "test");
+        assertThat(this.parser.parse(readFile(), "test")).hasSize(6);
     }
-
 
     private String readFile() {
         try {
