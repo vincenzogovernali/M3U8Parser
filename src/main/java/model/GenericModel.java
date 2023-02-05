@@ -1,18 +1,16 @@
 package model;
 
 import lombok.Getter;
-import lombok.Setter;
 
 import java.util.UUID;
 
 @Getter
-@Setter
 public class GenericModel {
 
-    private String id;
-    private String title;
-    private String imageUrl;
-    private String url;
+    private final String id;
+    private final String title;
+    private final String imageUrl;
+    private final String url;
 
     public GenericModel(String title, String imageUrl, String defaultImage, String url) {
         this.title = title;
