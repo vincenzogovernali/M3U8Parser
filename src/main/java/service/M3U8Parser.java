@@ -8,7 +8,7 @@ import util.URLUtil;
 import java.util.ArrayList;
 import java.util.List;
 
-public class M3U8Parser  {
+public class M3U8Parser {
 
     private static final String REGEX_EXTRACT_NAME = "(?<=NAME=\").*?(?=\")";
     private static final String REGEX_EXTRACT_NAME_LAST_AND_R = "(?<=,).*?(?=\r)";

@@ -1,13 +1,7 @@
 package service;
 
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.TestInstance;
-import service.M3U8Parser;
 
-import java.io.File;
-import java.io.FileInputStream;
 import java.io.InputStream;
 
 class M3U8ParserTest {
@@ -25,17 +19,16 @@ class M3U8ParserTest {
     }
 
 
-
     private String readFile() {
         try {
-            InputStream input =  getClass().getResourceAsStream("../Test.m3u8");
+            InputStream input = getClass().getResourceAsStream("../Test.m3u8");
             String finalString = "";
             int character;
-            while (( character = input.read()) != -1) {
-                finalString += String.valueOf((char)character);
+            while ((character = input.read()) != -1) {
+                finalString += String.valueOf((char) character);
             }
             return finalString;
-        }catch (Exception e) {
+        } catch (Exception e) {
             throw new IllegalArgumentException("Error During Read File");
         }
     }
