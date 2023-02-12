@@ -7,6 +7,7 @@
 This library deals with parsing a content of type M3U8 into a list of *GenericModel*.
 
 Add it in your root build.gradle at the end of repositories:
+
 ```
 allprojects {
 	repositories {
@@ -20,7 +21,7 @@ Step 2. Add the dependency
 
 ```
 dependencies {
-        implementation 'com.github.vincenzogovernali:M3U8Parser:1.0.0'
+        implementation 'com.github.vincenzogovernali:M3U8Parser:1.0.1'
 }
 ```
 

@@ -1,4 +1,4 @@
-package constant;
+package it.vincenzogovernali.M3U8Parser.constant;
 
 public class Constant {
 

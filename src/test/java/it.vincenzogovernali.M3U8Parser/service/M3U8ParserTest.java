@@ -1,4 +1,4 @@
-package service;
+package it.vincenzogovernali.M3U8Parser.service;
 
 import org.junit.jupiter.api.Test;
 
@@ -21,8 +21,7 @@ class M3U8ParserTest {
     }
 
     private String readFile() {
-        try {
-            InputStream input = getClass().getResourceAsStream("../Test.m3u8");
+        try (InputStream input = getClass().getResourceAsStream("/Test.m3u8")) {
             String finalString = "";
             int character;
             while ((character = input.read()) != -1) {
