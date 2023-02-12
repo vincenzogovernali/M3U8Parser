@@ -1,9 +1,9 @@
-package it.vincenzogovernali.M3U8Parser.service;
+package it.vincenzogovernali.m3u8parser.service;
 
 
-import it.vincenzogovernali.M3U8Parser.model.GenericModel;
-import it.vincenzogovernali.M3U8Parser.util.RegexUtil;
-import it.vincenzogovernali.M3U8Parser.util.URLUtil;
+import it.vincenzogovernali.m3u8parser.model.GenericModel;
+import it.vincenzogovernali.m3u8parser.util.RegexUtil;
+import it.vincenzogovernali.m3u8parser.util.URLUtil;
 
 import java.util.ArrayList;
 import java.util.List;

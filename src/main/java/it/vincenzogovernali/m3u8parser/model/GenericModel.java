@@ -1,4 +1,4 @@
-package it.vincenzogovernali.M3U8Parser.model;
+package it.vincenzogovernali.m3u8parser.model;
 
 import lombok.Getter;
 

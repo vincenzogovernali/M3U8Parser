@@ -1,6 +1,6 @@
-package it.vincenzogovernali.M3U8Parser.util;
+package it.vincenzogovernali.m3u8parser.util;
 
-import it.vincenzogovernali.M3U8Parser.constant.Constant;
+import it.vincenzogovernali.m3u8parser.constant.Constant;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;

@@ -1,4 +1,4 @@
-package it.vincenzogovernali.M3U8Parser.util;
+package it.vincenzogovernali.m3u8parser.util;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

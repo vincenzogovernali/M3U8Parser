@@ -1,8 +1,8 @@
-package it.vincenzogovernali.M3U8Parser.model;
+package it.vincenzogovernali.m3u8parser.model;
 
 import org.junit.jupiter.api.Test;
 
-import static it.vincenzogovernali.M3U8Parser.constant.Constant.TEST_STRING;
+import static it.vincenzogovernali.m3u8parser.constant.Constant.TEST_STRING;
 import static org.assertj.core.api.Assertions.assertThat;
 
 

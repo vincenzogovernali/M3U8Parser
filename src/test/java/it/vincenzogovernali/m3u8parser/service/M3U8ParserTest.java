@@ -1,4 +1,4 @@
-package it.vincenzogovernali.M3U8Parser.service;
+package it.vincenzogovernali.m3u8parser.service;
 
 import org.junit.jupiter.api.Test;
 
