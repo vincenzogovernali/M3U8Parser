@@ -15,7 +15,7 @@ public class M3U8Parser {
     private static final String REGEX_EXTRACT_NAME_TVG_NAME = "(?<=tvg-name=\").*?(?=\")";
     private static final String REGEX_EXTRACT_RESOLUTION_AND_VIRGO = "(?<=RESOLUTION=).*?(?=,)";
     private static final String REGEX_EXTRACT_GROUP_TITLE_AND_VIRGO = "(?<=group-title=).*";
-
+    private static final  String REGEX_EXTRACT_NAME_AFTER_VIRGO = ",(.*)$";
     private static final String REGEX_EXTRACT_LOGO_TVG_LOGO = "(?<=tvg-logo=\").*?(?=\")";
     private static final String NEW_LINE = "\n";
 
@@ -64,6 +64,8 @@ public class M3U8Parser {
             return RegexUtil.checkRegex(line, REGEX_EXTRACT_NAME_TVG_NAME);
         } else if (RegexUtil.checkRegex(line, REGEX_EXTRACT_GROUP_TITLE_AND_VIRGO) != null) {
             return RegexUtil.checkRegex(line, REGEX_EXTRACT_GROUP_TITLE_AND_VIRGO);
+        }else if (RegexUtil.checkRegex(line, REGEX_EXTRACT_NAME_AFTER_VIRGO) != null) {
+            return RegexUtil.checkRegex(line, REGEX_EXTRACT_NAME_AFTER_VIRGO);
         } else {
             return "Name Not Find";
         }
