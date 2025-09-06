@@ -1,4 +1,4 @@
-# M3U8 Parser
+# Devil Parser
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=vincenzogovernali_M3U8Parser&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=vincenzogovernali_M3U8Parser)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=vincenzogovernali_M3U8Parser&metric=coverage)](https://sonarcloud.io/summary/new_code?id=vincenzogovernali_M3U8Parser)
@@ -21,7 +21,7 @@ Step 2. Add the dependency
 
 ```
 dependencies {
-        implementation 'com.github.vincenzogovernali:M3U8Parser:1.0.1'
+        implementation 'com.github.vincenzogovernali:DevilParser:2.0.0'
 }
 ```
 
